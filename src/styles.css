@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&family=Limelight&display=swap");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h2::selection {
+  background: var(--chakra-colors-pink-400); /* WebKit/Blink Browsers */
+}
+
+body {
+  background-color: #faf7f3 !important;
+}
